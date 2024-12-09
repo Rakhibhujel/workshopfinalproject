@@ -1,0 +1,62 @@
+.box-main {
+  display: flex;
+  gap: 12px;
+  margin-top: 40px;
+  border-color: none;
+  margin-bottom: 150px;
+}
+.box-main h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 580px;
+}
+
+.box {
+  border-radius: 8%;
+  margin-top: 80px;
+  border: 1px solid black;
+  height: 300px;
+}
+
+.bungee {
+  text-align: center;
+}
+
+.box img {
+  border-radius: 5% 5% 5% 5%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* Ensure the image covers the box */
+  transition: transform 0.3s ease;
+}
+
+.places {
+  font-size: 10px;
+  display: inline;
+  text-align: center;
+}
+
+.para {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Style for the image */
+
+/* Hover effect */
+.box:hover {
+  transform: scale(1.05); /* Slight zoom effect on the box */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+
+/* Hover effect on the image */
+.box:hover img {
+  transform: scale(1.1); /* Zoom the image inside the box */
+}

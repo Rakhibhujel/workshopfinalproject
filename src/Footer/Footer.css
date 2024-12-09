@@ -1,0 +1,80 @@
+.sandhya {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  padding: 5px;
+  margin-top: 15px;
+  background-color: gray;
+  background-color: rgb(240, 235, 235);
+  background-image: url(https://media.istockphoto.com/id/1891794035/photo/sightseeing-in-the-heart-of-sri-lanka-with-a-tuk-tuk.webp?a=1&b=1&s=612x612&w=0&k=20&c=GSPYz5WUTCl5GrRk6x1gZLJh6DUnjES1tsRjDD6zSjQ=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.footer-col-one {
+  text-align: left;
+  border-radius: 7px;
+  color: black;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
+.footer-col-two {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.footer-col-three {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+.footer-col-four {
+  text-align: center;
+  color: black;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+}
+.sndy {
+  display: flex;
+  margin: 50px;
+  gap: 20px;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+.copy {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.roup {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
+.bttn {
+  background-color: green;
+  padding: 10px;
+}
+.ram {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
+.btnn {
+  background-color: purple;
+  padding: 10px;
+}
+h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.btns {
+  margin-top: 10px;
+}
